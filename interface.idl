@@ -1,0 +1,23 @@
+module TestModule
+{
+	interface Test
+	{
+		float	minus(in float a, in float b);
+		boolean	div(in float x, in float y, out float result);
+		
+		struct DivResult
+		{
+			long result, remainder;
+		};
+		
+		DivResult intDiv(in long x, in long y);
+		
+		
+		float invSqrt(in float x);
+		
+	};
+
+	
+
+};
+
